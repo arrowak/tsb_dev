@@ -1,0 +1,113 @@
+ /* body styling */
+body{
+	font-family: "Arial";
+	background: url("../img/bgnoise_lg.png");
+	padding: 0px !important;
+}
+
+/* generic classes */
+.inline{
+	display: inline;
+}
+
+
+/* header styling */
+
+.heading_strap{
+	padding : 1.5%;
+}
+
+#social{
+	float: right;
+}
+
+#social img{
+	width: 30px;
+	height: 30px;
+}
+
+/* top nav bar styling */
+.top_nav_bar{
+}
+
+.nav_bar_li{
+	text-align: center;
+	border-right: 1px solid #222222;
+	padding: 1.5%;
+	background: #FFC605;
+	color : #333333;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.nav_bar_li:last-child{
+	border-right: 0px;
+}
+
+.nav_bar_li.active, .nav_bar_li.active:hover{
+	background: url("../img/tsbnavbar.png");
+	color : #EDEDED;
+}
+
+.nav_bar_li:hover{
+	background: #F2BB00;
+}
+
+/* Bulk Order Page styling */
+
+/* slider image */
+.slider{
+	margin: 10px 0px;
+}
+
+.slider_image{
+	background: #000;
+	overflow: auto;
+	height: 70%;
+}
+
+.slider_caption{
+	background: red;
+	height: 25%;
+	margin-left: 65%;
+}
+
+
+/* Merchandize Page styling */
+
+.merchandize_wrapper{
+	padding-top: 10px;
+}
+
+.merchandize_ideas{
+	margin: 10px;
+}
+
+.tabs{
+
+}
+
+.tabs div{
+	padding: 10px;
+	text-align: center;
+	background: url("../img/tsbnavbar.png"); 
+	opacity: 0.5;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	color: #EDEDED;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.tabs .active{
+	opacity: 1;	
+}
+
+.tabs div:hover{
+	opacity: 0.8;
+}
+
+.tab_details{
+	background: #FEFEFE;
+	padding: 10px;
+}
